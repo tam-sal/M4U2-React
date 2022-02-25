@@ -5,7 +5,7 @@ const Nav = (props) => {
     <nav>
       <ul className="nav-list holder">
         <li className="nav-item home">
-            <Link to ="/" exact activeClassName='activo'>Home</Link></li>
+            <Link to ="/">Home</Link></li>
         <li className="nav-item nosotros">
           <Link to = '/nosotros'>Nosotros</Link>
         </li>
