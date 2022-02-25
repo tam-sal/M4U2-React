@@ -1,7 +1,13 @@
-import React from 'react';
+// import React from 'react';
 const Header = (props) => {
     return (
-        <div>Header</div>
+    <header>
+      <div className="c-header holder">
+        <img src="img/airplane-png.png" width="100" alt="imagen-cabezara" />
+        <h1>Sky Airlines</h1>
+        
+      </div>
+    </header>
         );
 }
 export default Header;

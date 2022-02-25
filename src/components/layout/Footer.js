@@ -1,6 +1,15 @@
-import React from 'react';
+// import React from 'react';
+import {Link} from 'react-router-dom';
 const Footer = (props) => {
     return (
-        <div>Footer</div>);
+    <footer>
+      <p>Diseñada por Tamer Saleh - &copy;2022</p>
+      
+      <div onClick={() => window.location.replace('/#top')}>
+        <div className="back-top" title="ir arriba">
+          <Link to id = "/#top"><i className="fa fa-angle-up"></i></Link>
+        </div>
+      </div>
+    </footer>);
 }
 export default Footer;
