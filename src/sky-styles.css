@@ -440,7 +440,7 @@ header h1 {
 /* Fin Novedades */
 /* ================================== */
 /* Inicio Contacto */
-.container-contacto {
+/* .container-contacto {
   display: flex;
   padding: 0.5em;
 }
@@ -522,4 +522,4 @@ header h1 {
 .fa-envelope:hover,
 .skype:hover {
   opacity: 1;
-}
+} */

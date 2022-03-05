@@ -7,7 +7,7 @@ const Footer = (props) => {
       
       <div onClick={() => window.location.replace('/#top')}>
         <div className="back-top" title="ir arriba">
-          <Link to id = "/#top"><i className="fa fa-angle-up"></i></Link>
+          <Link exact to href="Header/#top"><i className="fa fa-angle-up"></i></Link>
         </div>
       </div>
     </footer>);
