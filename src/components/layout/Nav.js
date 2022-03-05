@@ -1,25 +1,25 @@
 // import React from 'react';
-import {Link} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Nav = (props) => {
     return (
     <nav>
       <ul className="nav-list holder">
         <li className="nav-item home">
-            <Link to ="/">Home</Link></li>
+            <NavLink activeClassName= 'activo' exact to ="/">Home</NavLink></li>
         <li className="nav-item nosotros">
-          <Link to = '/nosotros'>Nosotros</Link>
+          <NavLink activeClassName= 'activo' exact to = '/nosotros'>Nosotros</NavLink>
         </li>
         <li className="nav-item servicios">
-          <Link to = "/servicios">Servicios</Link>
+          <NavLink activeClassName= 'activo' exact to = "/servicios">Servicios</NavLink>
         </li>
         <li className="nav-item galeria">
-          <Link to ="/galeria">Galeria</Link>
+          <NavLink activeClassName= 'activo' exact to ="/galeria">Galeria</NavLink>
         </li>
         <li className="nav-item novedades">
-          <Link to ="/novedades">Novedades</Link>
+          <NavLink activeClassName= 'activo' exact to ="/novedades">Novedades</NavLink>
         </li>
         <li className="nav-item contacto">
-          <Link to = '/contacto'>Contacto</Link>
+          <NavLink activeClassName= 'activo' exact to = '/contacto'>Contacto</NavLink>
         </li>
     </ul>
     </nav>);
