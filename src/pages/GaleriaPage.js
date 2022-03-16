@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 const GaleriaPage = (props) => { return (
-    <main className="contenido holder">
+    <main className="contenido holder" id="top">
       
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus

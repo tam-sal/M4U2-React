@@ -1,6 +1,6 @@
 const HomePage = (props) => {
     return (
-    <main className="contenido holder">
+    <main className="contenido holder" id="top">
       <div className="homeimg"><img src="img/home/img01.jpg" alt="avion" /></div>
       <div className="columnas">
         <div className="bienvenidos left">

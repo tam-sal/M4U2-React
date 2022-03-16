@@ -4,7 +4,7 @@ const Header = (props) => {
     <header>
       <div className="c-header holder">
         <img src="img/airplane-png.png" width="100" alt="imagen-cabezara" />
-        <h1 id="top">Sky Airlines</h1>
+        <h1>Sky Airlines</h1>
 
         
         

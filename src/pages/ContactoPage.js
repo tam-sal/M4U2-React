@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 const ContactoPage = (props) => {return (
-<main className="contenido holder">
-<div id ="top"></div>
+<main className="contenido holder" id="top">
+
 
       <div className="container-contacto holder">
         <div className="formulario">
