@@ -5,7 +5,7 @@ const Footer = (props) => {
     <footer>
       <p>Diseñada por Tamer Saleh - &copy;2022</p>
         <div className="back-top" title="ir arriba">
-        <a href="/#top"><i className="fa fa-angle-up"></i></a>   
+        <a href="#top"><i className="fa fa-angle-up"></i></a>   
       </div>
     </footer>);
 }
