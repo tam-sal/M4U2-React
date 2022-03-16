@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+# prueba sync con github
+
 # production
 /build
 
