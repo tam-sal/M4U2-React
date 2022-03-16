@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom';
 const NovedadesPage = (props) => {return (
-    <main className="contenido holder" id="top">
+    <main className="contenido holder">
+      <a id="top"></a>
     <h2>Novedades</h2>
     <p className="p-nov">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam,

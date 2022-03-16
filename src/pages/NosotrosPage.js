@@ -2,7 +2,8 @@ import {Link} from 'react-router-dom';
 const NosotrosPage = (props)=> {
     return (
 
-    <main className="contenido holder" id="top">
+    <main className="contenido holder">
+      <a id="top"></a>
       <h2 className="h2-nosotros">Historia</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eligendi

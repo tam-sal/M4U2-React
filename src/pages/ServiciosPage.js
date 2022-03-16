@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 const ServiciosPage = (props) => {return (
     
     <main className="contenido holder">
-      <p id="top"></p>
+      <a id="top"></a>
       <h2 className="h2-servicios">Servicios</h2>
       <div className="caja">
         <div className="img-caja">
